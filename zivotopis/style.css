@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= League+Gothic & family = Roboto+Condensed:wght@500 & display=swap');
+main{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+p{
+    font-size: 22px;
+    text-align: justify;
+    font-family: Cambria, serif;
+}
+h1{
+    font-family: 'BebasNeueRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #c49a19;
+}
+.main-text1{
+    display: flex;
+    margin-bottom: 100px;
+}
+.main-text2{
+    display: flex;
+    margin-bottom: 100px;
+}
+main img{
+    width: 415px;
+    height: 550px;
+}
+.text1{
+    margin-left: 100px;
+}
+
+.text2{
+    margin-right: 100px;
+}

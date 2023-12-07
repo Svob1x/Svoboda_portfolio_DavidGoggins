@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&display=swap');
+body{
+    margin: unset;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+.navigation-menu{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.58);
+    padding-bottom: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.nav-link{
+    margin-left: 50px;
+    font-size: 27px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 3px;
+}
+.nav-link a{
+    text-decoration: none;
+    color:black;
+}
+.nav-link a:hover{
+    border-bottom: #c49a19 solid 4px;
+}
+.nav-logo{
+    display: flex;
+    padding-top: 20px;
+}
+.nav-logo img{
+    width: 226px;
+    height: 88px;
+}
+.footer-links{
+    list-style: none;
+    display: flex;
+    padding:0;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer-menu a{
+    color: #007dfd;
+    text-align: center;
+    margin-top: 16px;
+    margin-left: 5px;
+    margin-bottom: 16px;
+}
+.footer-menu p{
+    color: #fff;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= League+Gothic & family = Roboto+Condensed:wght@500 & display=swap');
+body{
+    background-image:url("images/pxfuel.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: unset;
+    height: auto;
+    background-size: auto;
+    background-attachment: scroll;
+}
+.main-text{
+    text-align: left;
+    padding-left: 800px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+h2{
+    font-family: 'BebasNeueRegular', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 180px;
+    margin: unset;
+}
+h1{
+    font-family: 'BebasNeueRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+    color: #c49a19;
+}
+.main-text p{
+    padding-right: 350px;
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 40px;
+    color: rgba(86, 86, 86, 0.71);
+    font-family: "Roboto Condensed", sans-serif;
+}
+.social-media-items {
+    color: rgba(86, 86, 86, 0.71);
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 500px;
+    padding-left: 0;
+}
+.social-media-items a{
+    text-decoration: unset;
+    color: rgba(86, 86, 86, 0.71);
+    padding-right: 50px;
+}
+.social-media-items a:hover{
+    color: #c49a19;
+    cursor: pointer;
+}

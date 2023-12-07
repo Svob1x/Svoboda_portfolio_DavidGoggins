@@ -1,0 +1,75 @@
+.main-page-info{
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.gallery-images img {
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 50px 5px 5px;
+}
+h1{
+    text-align: center;
+    font-family: Cambria, serif;
+    font-style: normal;
+    font-weight: inherit;
+    font-size: 30px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 50px 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.popup img {
+    height: 600px;
+    width: 600px;
+}
+
+.popup p {
+    margin-top: 10px;
+    text-align: justify;
+    max-width: 900px;
+    padding-top: 30px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.gallery-images:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
